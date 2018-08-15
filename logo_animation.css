@@ -1,0 +1,43 @@
+@keyframes lines {
+  from { transform: skewX(80deg); width: 50px; background-color: yellow;
+         box-shadow: 1px 2px 4px rgba(0, 0, 0, .2);}
+   to { transform: skewX(0deg); width: 200px; background-color: yellogreen;
+         box-shadow: 1px 2px 2px rgba(0, 0, 0, .4);}
+}
+@keyframes text {
+  from { color: white; text-shadow: 2px 2px white; }
+   to { color: yellowgreen; text-shadow: 1px 1px grey;}
+}
+.container {
+ width: 100px;
+ position: relative;
+ margin-top:100px;
+  margin-left:auto;
+ margin-right:auto;
+}
+.box{
+   width: 200px;
+   height: 50px;
+   background-color: yellowgreen;
+   margin: 20px;
+   margin-bottom: 10px;
+   animation-name: lines;
+   animation-duration: 5s;
+ animation-iteration-count: 3;
+/*   transition-timing-function: ease-in-out; */
+}
+#text{
+position: absolute;
+ top: 80px;
+ right: -235px;
+ font-size: 23px;
+  position: absolute;
+ color: yellowgreen;
+ transform: rotate(270deg);
+ animation-name: text;
+   animation-duration: 5s;
+ animation-iteration-count: 3;
+
+}
+ 
+/* https://codepen.io/anastasiya-chernikova/pen/JBqrYd */

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+    .box {
+  width: 100px;
+  height: 100px;
+  padding: 30px;
+  margin: 30px; 
+  border: 10px solid purple;
+    box-sizing: border-box;
+}
+#round {
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    border-radius: 25px;
+    width: 200px;
+    height: 150px; 
+}
+.box1 {
+  width:1000px;
+  height:500px;
+ background: url(https://vignette.wikia.nocookie.net/fantendo/images/6/6e/Small-mario.png/revision/latest?cb=20120718024112) left bottom no-repeat, url(http://pluspng.com/img-png/grass_PNG4930.png) left top repeat;
+}
+/* CSS3 Background Size */
+#div1 {
+    background: url(img_flower.jpg);
+    background-size: 100px 80px;
+    background-repeat: no-repeat;
+}
+/* Gradient */
+#grad {
+  width: 200px;
+  height: 200px;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom,black, white); /* Standard syntax */
+}
+.box3 {
+  width: 100px;
+  height: 100px; 
+  padding: 50px;
+  border: 10px solid purple;
+  box-sizing: content-box;
+   transform: rotate(20deg);
+    transform: skewX(20deg);
+}
+#name {
+  transform: scale(0.7); 
+  background-color: pink;
+}
+    </style>
+</head>
+<body>
+        <div class="box"> </div>
+        <div id="round"> </div>
+        <div class="box1"> </div>
+        <div class="box3">
+                <span id="name">Anastasiya</span>
+                
+              </div>
+
+    
+</body>
+</html>
